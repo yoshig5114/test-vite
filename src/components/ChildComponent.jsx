@@ -1,10 +1,11 @@
 import { useState } from "react";
 
-export default function ChildComponent(prop){
+export default function ChildComponent(props){
 
     return (
         <div>
-            <p>{prop.message}</p>
+            <p>{props.message}</p>
+            <p>{props.belief}</p>
         </div>
     )
 }
