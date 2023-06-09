@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import ChildComponent from './components/childComponent'
-
+import Fetch from './components/Fetch'
 import './App.css'
 
 class App extends Component {
@@ -24,10 +24,12 @@ class App extends Component {
       }))
     }
   }
+
   render() {
     return (
       <>
         <div>
+          Fetch()
           <a href="https://vitejs.dev" target="_blank">
             <img src={viteLogo} className="logo" alt="Vite logo" />
           </a>
